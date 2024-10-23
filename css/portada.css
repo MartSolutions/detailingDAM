@@ -24,7 +24,7 @@
     height:100%;
     box-shadow:0 0 15px  #0008, inset 0 0 45px #fff1;
     position: relative;
-    text-shadow:0 0 15px #000;
+    /* text-shadow:0 0 15px #000; */
   }
 
 #portada .submit{
@@ -42,5 +42,5 @@
     font-weight: 600;
     margin-top:25px;
     position: absolute;
-    inset: auto 2rem 2rem auto;
+    inset: auto 2rem 3rem auto;
   }

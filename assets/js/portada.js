@@ -7,6 +7,6 @@ window.addEventListener('scroll', function() {
 
     // Ajusta la posición del fondo a medida que se hace scroll
     background.style.backgroundPositionY = - (scrollPosition * 0.125) + 'px';
-    bgtop.style.backgroundPositionY = (scrollPosition * 0.125) + 'px';
+    bgtop.style.backgroundPositionY = -(scrollPosition * 0.125) + 'px';
     // scrollf.style.backgroundPositionY = (scrollPosition * 0.125) + 'px';
 });
