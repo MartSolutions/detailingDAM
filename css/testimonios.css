@@ -1,0 +1,42 @@
+
+.testimonios{
+    padding:0;
+    padding-top:2rem;
+}
+.content-comments{
+    display:flex;
+    gap:2rem;
+    overflow-x:scroll;
+    padding:2rem;
+}
+
+.comment{
+    max-width:300px;
+    background:#fff;
+    border-radius:10px;
+    box-shadow:0 0 15px #0005;
+    
+}
+
+.content-img{
+    width:120px;
+    height:120px;
+    border-radius:100%;
+    /* border:solid 1px red; */
+    overflow:hidden;
+    border:solid 2px #fff;
+    box-shadow:0 0 5px #0005;
+    margin:0 auto;
+}
+.content-img img{ width:100%;}
+
+.comment .name{
+    margin-top:1rem;
+    margin-bottom:1rem;
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.comment .text{
+    font-size:1.25rem;
+}

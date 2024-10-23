@@ -1,0 +1,27 @@
+.seguro_lluvia{
+    color:#fff;
+    min-height:80vh;
+    background-image: url(../assets/imgs/lluvia.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    padding:2rem;
+    min-height:80vh;
+}
+
+.glass{
+    backdrop-filter:blur(10px);
+    background:#0005;
+    border-radius:10px;
+    text-shadow: 0 0 10px #000;
+    padding:1rem;
+    min-height:80vh;
+}
+
+.seguro_lluvia .title{
+    text-align:left;
+}
+
+
+.seguro_lluvia .des{
+    font-size:1.5rem;
+}

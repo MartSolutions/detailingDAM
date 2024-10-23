@@ -1,0 +1,58 @@
+.planes{
+    background-color: #000;
+    color:#fff;
+    padding:0;
+    min-height:80vh;
+    padding-top:2rem;    
+}
+.all-plans{
+    display:flex;
+    gap:2rem;
+    overflow-x:scroll;
+    scroll-snap-type: x;
+    scroll-snap-align: start;
+    padding:2rem;
+}
+
+.content-plan{
+    box-shadow:-2px -2px 15px #fff, 2px 2px 15px var(--primary);
+    border-radius:10px;
+    min-height: 50vh;
+    max-width:max-content;
+    /* border:solid 1px red; */
+    font-size: 1.25rem;
+    min-width: max-content;
+    position:relative;
+    padding:1rem;
+    padding-bottom:5rem;
+    background:#fff2;
+}
+.content-plan h1{
+    color:var(--primary);
+    border-bottom:solid 1px #fff2;
+}
+
+.content-plan .dg div{
+    min-width: max-content;
+    text-align:left;
+    color:#fff;
+}
+
+
+.content-plan i.fa-check{
+    color:green;
+    font-size:0.75rem;
+}
+
+.content-plan a{
+    color:#0008;
+    font-weight: 600;
+    background:var(--primary);
+    margin-top:1rem;
+    padding:0.25rem 1.5rem;
+    border-radius:5px;
+    position:absolute;
+    bottom:1.5rem;
+    right:1.5rem;
+}
+

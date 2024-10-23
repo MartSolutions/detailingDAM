@@ -1,0 +1,68 @@
+/* Reset básico */
+
+::-webkit-scrollbar{display:none;}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* border:solid 1px #0005; */
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background: #eee;
+  color:#999;
+  margin:0;
+  padding:0;
+}
+
+section {
+  padding: 50px;
+  text-align: center;
+}
+a{text-decoration: none;}
+h1,
+h2 {
+  margin-bottom: 20px;
+}
+
+.service,
+.testimonial {
+  margin: 20px 0;
+}
+
+/* Efecto Parallax */
+.parallax {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  color: white;
+}
+
+.fz-2{
+  font-size:2rem;
+}
+.fz-4{
+  font-size:4rem;
+}
+
+
+
+#testimonios {
+  background-image: url("testimonios.jpg"); /* Cambia esta imagen */
+}
+
+#porqueElegirnos {
+  background-color: #f7f7f7;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
