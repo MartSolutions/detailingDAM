@@ -1,5 +1,7 @@
 /* Reset básico */
-
+:root{
+  --primary:#00ff6a;
+}
 ::-webkit-scrollbar{display:none;}
 * {
   margin: 0;

@@ -13,34 +13,29 @@ window.addEventListener('scroll', function() {
 
 
 $(document).ready(function(){
-    $(".content-service .service").click(function() {
+    $(".content-service").on('click',function() {
+        //Si tiene la clase selected
+        console.log("Click en servicios")
+        //Si no tiene la clase selected
         if (!$(this).hasClass('selected')) {
-
             $(this).find('.title').css({'transform': 'translateY(0)', 'opacity': 1});
             $(this).find('.back').css({'transform': 'translateY(-45vh)', 'opacity': 0});
             setTimeout(() => {
-                $('.service.selected').find('.back').css({'color': '#fff'});
+                $('.conten-service.selected').find('.back').css({'color': '#fff'});
                 $(this).addClass('selected')
-
-                // $(this).removeClass('selected')
+                return;
             }, 450);
-           
-        }else{
-            // Continuar con las animaciones y estilos
-           
-             
+        }else if ($(this).hasClass('selected')) {
+            $(this).find('.title').css({'transform': 'translateY(-10vh)', 'opacity': 0});
+            $(this).find('.back').css({'transform': 'translateY(0)', 'color':'#fff','opacity': 1});
+            setTimeout(() => {
+                 $(this).removeClass('selected')
+                return;
 
+            }, 450);
+       }
 
-             // $(this).addClass('selected')
-             $(this).find('.title').css({'transform': 'translateY(-10vh)', 'opacity': 0});
-             $(this).find('.back').css({'transform': 'translateY(0)', 'color':'#fff','opacity': 1});
-              
-             $(this).removeClass('selected')
-              setTimeout(() => {
-             }, 450);
-        }
-    
-        // Continuar con las animaciones y estilos
+        
         
     });
 })
