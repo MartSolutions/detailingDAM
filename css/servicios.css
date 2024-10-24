@@ -9,15 +9,16 @@
     transition:all ease-in-out 0.5s;
 }
  .back{
-    visibility:hidden;
-    z-index: -2;
-    transform: rotateY(180deg);
+    /* visibility:hidden;
+    z-index: -2; */
+    transform: translateY(-45vh);
     color:#fff0;
     transition:all ease-in-out 0.5s;
     background-color:#0009;
     width:100%;
     height:100%;
     backdrop-filter: blur(20px);
+    overflow:visible;
     /* position:relative; */
 
 
@@ -36,6 +37,8 @@
     transition:all ease-in-out 0.5s;
     text-shadow: 0 0 10px #000, 0 0 1px #000;
 }
+
+.service .title-back{}
 
 .lavado_motor{
     /* background-image: url(../assets/imgs/motor.jpg); */
@@ -66,14 +69,14 @@
 .content-service{
     overflow: hidden;
 }
-    .content-service:hover .service{
+    /* .content-service:hover .service{
     transform: rotateY(180deg);
     background: #000;
     color:#fff;
 }
 
-/* .content-service:hover .service .back{
-} */
+.content-service:hover .service .back{
+}
 
 .content-service:hover .service .title{
     color:#fff0;
@@ -88,11 +91,15 @@
     z-index:1;
     transform: rotateY(180deg);
 
-}
+} */
 
 .back .title-back{
     font-size:1.5rem;
-    padding:1.5rem;
+    padding:1.5rem 1.5rem 1rem 1.5rem;
+    border-bottom:solid 1px #fff2;
+    max-height: min-content;
+    margin-bottom:1rem;
+
 }
 
 .back .description{

@@ -11,11 +11,11 @@
 }
 
 .comment{
-    max-width:300px;
+    min-width:400px;
     background:#fff;
     border-radius:10px;
     box-shadow:0 0 15px #0005;
-    
+    padding:1rem;
 }
 
 .content-img{
