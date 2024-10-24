@@ -25,7 +25,7 @@
     position: relative;
     padding: 1rem;
     padding-bottom: 5rem;
-    background: #fff2;
+    background-image: linear-gradient(to top right, #000 20%, #fff1 50%, #000 80%);
     border: solid 1px #fff1;
 }
 .content-plan h1{
@@ -41,8 +41,9 @@
 
 
 .content-plan i.fa-check{
-    color:green;
-    font-size:0.75rem;
+    color:var(--primary);
+    font-size:1rem;
+    margin-right:0.5rem;
 }
 
 .content-plan a{

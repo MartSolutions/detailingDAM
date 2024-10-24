@@ -2,6 +2,11 @@
 .testimonios{
     padding:0;
     padding-top:2rem;
+    background-image: linear-gradient(to bottom, #000, #246688);
+}
+
+.testimonios .title{
+    color:#fff;
 }
 .content-comments{
     display:flex;
@@ -40,4 +45,5 @@
 
 .comment .text{
     font-size:1.125rem;
+    text-align: left;
 }
