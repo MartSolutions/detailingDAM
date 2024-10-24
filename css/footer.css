@@ -9,25 +9,6 @@ footer{
     padding-top:2rem;
 }
 
-.redes a{
-    /* border:solid 1px red; */
-    display: block;
-    color:#fff;
-    font-size:1.25rem;
-    max-width: 200px;
-    border-radius:5px;
-    width:100%;
-    max-width: 300px;
-    margin:0 auto;
-    margin-bottom:1rem;
-    font-size:1.25rem;
-    width:100%;
-    padding:0.5rem 2rem;
-    align-self: center;
-    display:grid;
-    grid-template-columns: calc(30% - 0.5rem) calc(70% - 0.5rem);
-
-}
 
 .redes .buttons{
     display:grid;
@@ -62,42 +43,35 @@ footer{
 
 }
 
+.rrss{
 
-.tiktok-c{
-    background:#010101;
-}
-    .tiktok{
-    width:2rem;
-    height:2rem;
-    display:inline-block;
-    margin-right:2rem;
-    color:#fff;
-    background-image:url(../assets/imgs/tiktok.png);
-    background-size: cover;
-    align-self:center;
-}
+        display: block;
+        color:#fff;
+        font-size:1.25rem;
+        max-width: 200px;
+        border-radius:5px;
+        width:100%;
+        max-width: 300px;
+        margin:0 auto;
+        font-size:1.25rem;
+        width:100%;
+        padding:0.75rem 2rem;
+        align-self: center;
+        display:grid;
+        grid-template-columns:20% 75%;
 
-
-.instagram-c{
-    background-image:linear-gradient(to top right, #ffd020, #ed0017, #ba00b2 );
-}
-.instagram{
-    width:2rem;
-    height:2rem;
-    display:inline-block;
-    color:#fff;
-    align-self:center;
-
+    
 }
 
-.facebook-c{
-    color:#fff;
-    background-color: #1778f2;
+.rrss i{
+    font-size:2rem;
 }
-.instagram{
-    color:#fff;
-    background-color: #000;
-}
+
+
+.tt{color:#fff; background-color:#010101;}
+.ig{color:#fff; background-image:linear-gradient(to top right, #ffd020, #ed0017, #ba00b2 );}
+.fb{color:#fff; background-color: #1778f2;}
+.wp{color:#fff; background-color: #25D366;}
 
 .conten-map{
     width:100%;

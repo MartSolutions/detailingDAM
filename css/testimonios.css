@@ -11,7 +11,7 @@
 }
 
 .comment{
-    min-width:400px;
+    min-width:320px;
     background:#fff;
     border-radius:10px;
     box-shadow:0 0 15px #0005;
@@ -19,8 +19,8 @@
 }
 
 .content-img{
-    width:120px;
-    height:120px;
+    width:4rem;
+    height:4rem;
     border-radius:100%;
     /* border:solid 1px red; */
     overflow:hidden;
@@ -34,9 +34,10 @@
     margin-top:1rem;
     margin-bottom:1rem;
     font-weight: 600;
-    font-size: 2rem;
+    font-size: 1.25rem;
+    border-bottom:solid 1px #0001;
 }
 
 .comment .text{
-    font-size:1.25rem;
+    font-size:1.125rem;
 }

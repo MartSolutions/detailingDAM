@@ -15,17 +15,18 @@
 }
 
 .content-plan{
-    box-shadow:-2px -2px 15px #fff, 2px 2px 15px var(--primary);
-    border-radius:10px;
+    box-shadow: -5px -5px 10px -3px #fff7, 5px 5px 10px -5px var(--primary);
+    border-radius: 10px;
     min-height: 50vh;
-    max-width:max-content;
-    /* border:solid 1px red; */
+    max-width: max-content;
+    /* border: solid 1px red; */
     font-size: 1.25rem;
     min-width: max-content;
-    position:relative;
-    padding:1rem;
-    padding-bottom:5rem;
-    background:#fff2;
+    position: relative;
+    padding: 1rem;
+    padding-bottom: 5rem;
+    background: #fff2;
+    border: solid 1px #fff1;
 }
 .content-plan h1{
     color:var(--primary);
